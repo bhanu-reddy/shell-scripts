@@ -1,0 +1,13 @@
+#!/bin/bash
+# to check the variable value is met or not
+
+a=`date | awk '{print $1 }'`
+
+if [ "$a" == mon ]
+
+then
+echo " today is $a "
+else
+echo " today is not mon "
+
+fi

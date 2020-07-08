@@ -1,0 +1,23 @@
+
+#!/bin/bash
+# check response and then output
+
+echo " waht is your name sir..!"
+echo
+read a
+
+echo " hello $a "
+echo " do you like working in It..? (y/n) "
+echo 
+read b
+echo
+if [ $b == yes ]
+then
+echo " you are cool"
+echo
+elif [ $b == no ]
+then
+echo " you should try It .... it is very good "
+echo
+
+fi

@@ -1,0 +1,10 @@
+#!/bin/bash
+# to run the commands within scripts.
+
+echo "my name is `whoami`"
+echo
+echo "todays is  `date`  "
+echo
+echo "no of users login are `who | wc | awk '{print $1}'`"
+echo
+

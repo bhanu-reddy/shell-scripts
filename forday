@@ -1,0 +1,7 @@
+#!/bin/bash
+# to specify no of days in week 
+i=1
+for day in mon tue wed thur fri sat sun
+do
+echo "weekday $((i++)):$day"
+done

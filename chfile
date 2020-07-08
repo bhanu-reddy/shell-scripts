@@ -1,0 +1,10 @@
+#!/bin/bash
+# read input and perform task
+
+echo " enter the file name that to be changed "
+read old
+echo " enter the new file name "
+read new
+mv $old $new
+echo " the file name has been changed to $new"
+

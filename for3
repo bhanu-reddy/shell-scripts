@@ -1,0 +1,7 @@
+#!/bin/bash
+# to create five files using for
+for i in {1..5}
+do
+   touch  $i
+done
+

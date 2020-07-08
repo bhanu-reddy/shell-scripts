@@ -1,0 +1,13 @@
+#!/bin/bash
+# to check the existence of the file
+
+if [ -e /home/bhanu/ifthen ]
+then
+
+    echo " the file exists"
+
+
+    else
+   echo " file does not exists"
+
+ fi

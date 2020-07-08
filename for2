@@ -1,0 +1,8 @@
+#!/bin/bash
+# simple for loop output
+   a=ing
+ for i in eat read play watch sleep
+do
+echo " see bhanu is $i$a "
+done
+

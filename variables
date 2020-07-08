@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# defining variables
+a=bhanu
+b=prathap
+c=reddy
+
+
+
+echo "my 1st name is $a "
+echo "my 2nd name is $b "
+echo "my 3rd name is $c "
+

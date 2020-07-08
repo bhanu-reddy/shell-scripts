@@ -1,0 +1,10 @@
+#!/bin/bash
+# my first script with ifthen
+count=100
+if [ $count -eq 100 ]
+then
+   echo " the count is 100"
+else
+
+   echo " count is not equal to 100"
+fi
